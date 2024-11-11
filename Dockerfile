@@ -7,7 +7,7 @@ WORKDIR /usr/share/nginx/html/
 COPY css ./css
 COPY img ./img
 COPY index.html ./
-COPY . /usr/share/nginx/html
+COPY . /usr/share/nginx/html/
 
 # Контейнер будет использовать порт 80
 EXPOSE 80
